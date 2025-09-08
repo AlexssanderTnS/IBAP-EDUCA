@@ -380,11 +380,14 @@ body {
     }
 
     div.banner {
-        height: 250px;
+        height: 200px;
+        width: 400px;
+        background-size: contain;
+        background-image: url(/projeto/assets/Banner\ IBAP.EDUCCEL.png) ;
     }
 
     div.banner img {
-        height: auto;
+       display: none;
     }
 
     #painel {
