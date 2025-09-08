@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    align-items: center;
 }
 body{
     width: 100%;
@@ -75,11 +76,10 @@ nav.link a:hover{
     
     nav.link {
         position: absolute;
-        top: 7vh;
+        top: 9vh;
         right: 0;
         width: 10vw;
-        height: 50vh;
-        margin-bottom: 500px;
+        height: 100vh;
         background: #003366b7;
         z-index: 900;
         flex-direction: column;
@@ -100,7 +100,7 @@ nav.link a:hover{
 
     .mobile-menu {
         display: block;
-        position: absolute;
+        position: static;
         left: 300px;
         right: 300px;
         z-index: 900;
@@ -138,7 +138,7 @@ nav.link a:hover{
 .barra-carregamento-container {
     width: 170%;
     background-color: #ffffff00; /* Cor de fundo do contêiner (opcional) */
-    position: fixed; /* Fixa a barra no topo */
+    position: absolute; /* Fixa a barra no topo */
     right: 60px;
     top: 58px; /* Alinha ao topo da janela */
     z-index: 1000; /* Garante que a barra fique sobre outros elementos */
@@ -409,27 +409,59 @@ footer p{
     justify-content: center;
 }
 
-body {
-    margin: 0; /* Remove margens padrão do corpo */
-    font-family: sans-serif;
-}
 
 @media(max-width: 768px){
-    header{
-       position: fixed;
-    width: 100%;
-    height: 8vh;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #420000;
+    header {
+        padding: 15px 20px;
+        
+        height: 60px;
+    }
 
+    
+    header.header .logo img {
+        height: 60px;
+        margin-bottom: 1px;
+    }
+
+     /* Ajusta o menu lateral */
+    nav.link {
+        width: 140vw;
     }
 
 
+    div.banner img{
+        display: none;
+    width: 100px;
+    height: 200px;
+    }
 
+    section.videos div{
+        display: flex;
+        gap: 28px;
+        flex-direction: column;
+    }
 
+    div.video-container iframe{
+        width: 500px;
+        height: auto;
+    }
+
+    section.sobre{
+        gap: 20px;
+    }
+
+    section.sobre p{
+        line-height: 25px;
+        text-align: left;
+    }
+
+    div.curso li{
+        font-weight:bolder;
+    }
+
+    .autor-info p{
+        text-align: left;
+    }
 
 
 }
