@@ -27,7 +27,7 @@ header{
 }
 
 header.header .logo img{
-    height: 8vh;
+    height: 10vh;
 }
 
 .mobile-menu{
@@ -383,7 +383,6 @@ body {
         height: 200px;
         width: 100%;
         background-size: contain;
-        background-repeat: no-repeat;
         background-image: url(/projeto/assets/Banner\ IBAP.EDUCCEL.png) ;
     }
 
