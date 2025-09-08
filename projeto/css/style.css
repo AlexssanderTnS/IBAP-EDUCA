@@ -229,7 +229,7 @@ button a{
 
 button:hover{
     background-color: #093c50;
-   transition: 0.2s  ease;
+    transition: 0.2s  ease;
     scale: 1.1;
 }
 
@@ -383,14 +383,14 @@ body {
     }
 
     div.banner {
-        height: 200px;
-        width: 100%;
-        background-size: contain;
+        height: 220px;
+        width: 322px;
+        background-size:cover;
         background-image: url(/projeto/assets/Banner\ IBAP.EDUCCEL.png) ;
     }
 
     div.banner img {
-       display: none;
+        display: none;
     }
 
     #painel {
