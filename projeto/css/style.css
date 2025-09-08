@@ -39,7 +39,7 @@ header.header .logo img{
 div.mobile-menu div{
     width: 32px;
     height: 2px;
-    background-color: #3DDb63;
+    background-color: #093c50;
     margin: 8px;
 }
 
@@ -53,7 +53,7 @@ nav.link{
 }
 
 nav.link a{
-    color:  #3DDb63;
+    color:  #101110;
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
@@ -65,13 +65,13 @@ nav.link a{
 
 nav.link a:hover{
     cursor : pointer;
-    color: #0f0f0f;
+    color: #4CAF50;
     font-weight: 700;
 }
 @media (max-width: 999px) {
     nav.link {
         position: absolute;
-        top: 9vh;
+        top: 7vh;
         right: 0;
         width: 10vw;
         height: 92vh;
@@ -84,8 +84,8 @@ nav.link a:hover{
         transition: transform 0.3s ease-in;
     }
 
-    .link a {
-        color:  #3DDb63;
+    nav.link a {
+        color:  #ffffff;
         margin-left: 0;
         opacity: 0;
         
