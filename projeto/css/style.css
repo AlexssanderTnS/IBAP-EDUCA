@@ -383,6 +383,7 @@ body {
         height: 200px;
         width: 100%;
         background-size: contain;
+        background-repeat: no-repeat;
         background-image: url(/projeto/assets/Banner\ IBAP.EDUCCEL.png) ;
     }
 
