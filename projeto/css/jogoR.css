@@ -140,7 +140,7 @@ nav.link a:hover{
     background-color: #ffffff00; /* Cor de fundo do contêiner (opcional) */
     position: absolute; /* Fixa a barra no topo */
     right: 60px;
-    top: 58px; /* Alinha ao topo da janela */
+    top: 56px; /* Alinha ao topo da janela */
     z-index: 1000; /* Garante que a barra fique sobre outros elementos */
     height: 5px; /* Altura da barra */
 }
@@ -411,6 +411,11 @@ footer p{
 
 
 @media(max-width: 768px){
+
+    *{
+        overflow: hidden;
+    }
+
     header {
         padding: 15px 20px;
         
