@@ -156,7 +156,7 @@ div.banner img{
 
 #titulo h2{
     text-transform: capitalize;
-    margin-top: -55px;
+    margin-top: 30px;
     font-size: 22px;
     font-weight: 700;
     color: #3b3b3b;
@@ -343,7 +343,7 @@ body {
     background-color: #ffffff00; /* Cor de fundo do contêiner (opcional) */
     position: fixed; /* Fixa a barra no topo */
     right: 60px;
-    top: 54px; /* Alinha ao topo da janela */
+    top: 8%; /* Alinha ao topo da janela */
     z-index: 800; /* Garante que a barra fique sobre outros elementos */
     height: 6px; /* Altura da barra */
 }
