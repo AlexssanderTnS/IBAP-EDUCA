@@ -247,7 +247,7 @@ section.sobre{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: #093c50;
+    background-color: #0878a4;
 }
 
 .sobre h2{
@@ -293,7 +293,7 @@ section.sobre{
 .testimonial strong {
     display: block;
     margin-top: 10px;
-    color: #003366;
+    color: #0878a4;
 }
 
 .carousel-controls {
@@ -306,7 +306,7 @@ section.sobre{
 
 .carousel-controls button {
     position: relative;
-    background: #003366;
+    background: #0878a4;
     color: #fff;
     border: none;
     padding: 10px 15px;
