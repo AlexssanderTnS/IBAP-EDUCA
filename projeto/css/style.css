@@ -407,6 +407,11 @@ body {
     div.card {
         width: 90%;
     }
+
+    .barra-carregamento-container{
+        top: 6.2%;
+    }
+
 }
 
 /* ====== CELULARES PEQUENOS ====== */
