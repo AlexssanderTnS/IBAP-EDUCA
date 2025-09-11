@@ -141,7 +141,7 @@ nav.link a:hover{
     background-color: #ffffff00; /* Cor de fundo do contêiner (opcional) */
     position: absolute; /* Fixa a barra no topo */
     right: 60px;
-    top: 56px; /* Alinha ao topo da janela */
+    top: 8%; /* Alinha ao topo da janela */
     z-index: 1000; /* Garante que a barra fique sobre outros elementos */
     height: 5px; /* Altura da barra */
 }
