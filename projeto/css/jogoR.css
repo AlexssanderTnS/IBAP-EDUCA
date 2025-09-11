@@ -78,7 +78,7 @@ nav.navbar ul li a:hover {
 @media (max-width: 999px) {
     nav.navbar ul {
         position: absolute;
-        top: 9vh;
+        top: 7vh;
         right: 0;
         width: 40vw;
         height: 100vh;
