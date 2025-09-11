@@ -21,6 +21,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background: #f5f5f5;
+    z-index: 1000;
     
 
 }
@@ -352,7 +353,7 @@ body {
     height: 120%; /* Ocupa toda a altura do contêiner */
     background-color: #4CAF50; /* Cor de carregamento */
     width: 0; /* Começa com 0% de largura */
-    animation: carregar 8s linear forwards; /* Animação para carregar */
+    animation: carregar 3s linear forwards; /* Animação para carregar */
 }
 
 /* Animação de carregamento */
