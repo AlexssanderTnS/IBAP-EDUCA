@@ -114,7 +114,7 @@ nav.navbar ul li a:hover {
     background-color: #ffffff00;
     position: absolute;
     right: 60px;
-    top: 8%;
+    top: 100%;
     z-index: 1000;
     height: 5px;
 }
